@@ -1,4 +1,4 @@
-import "./styles.css";
+import  "../src/styles.css"
 import {useEffect, useState} from "react"
 
 export default function App() {
@@ -13,21 +13,21 @@ export default function App() {
     let mappedArray=users.map((user)=>user.id*2)
     console.log(mappedArray)
   }
-  return <div className="App">
+  return <div className="">
     <h1>
       Users
     </h1>
-    <div className="card"
+    <div className=""
     >
       {users.map((user)=>(
-       <div className="card-inner">
+       <div className="">
          {user.name}
        </div> 
   
       ))}
       
       
-      <div className="card-inner">
+      <div className="">
         <p>{users.name}</p>
         <p>{users.username}</p>
   </div>
