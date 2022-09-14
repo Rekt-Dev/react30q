@@ -1,6 +1,6 @@
 {
-  "name": "react-typescript",
-  "version": "1.0.0",
+  "name": "lel",
+  "version": "0.0.69",
   "description": "React and TypeScript example starter project",
   "keywords": [
     "typescript",
@@ -9,13 +9,19 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
+    "bootstrap": "^5.2.1",
     "react": "18.0.0",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "18.0.0",
     "react-scripts": "4.0.3"
   },
   "devDependencies": {
     "@types/react": "17.0.20",
     "@types/react-dom": "17.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "^8.23.1",
+    "eslint-plugin-react": "^7.31.8",
     "typescript": "4.4.2"
   },
   "scripts": {
@@ -29,5 +35,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "lul"
+  },
+  "author": "megaFish",
+  "license": "ISC"
 }

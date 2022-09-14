@@ -1,4 +1,5 @@
- @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap");
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 body {
   background: #f2f2f2;
@@ -18,12 +19,10 @@ body {
   box-shadow: 0 0 20px 8px #d0d0d0;
 }
 
-.card{
-    border: 1px;
-    height: 30%;
-    width: 35%;
-    
-    
+.card {
+  border: 1px;
+  height: 30%;
+  width: 35%;
 }
 
 .content {
@@ -92,23 +91,22 @@ h3 {
   width: 40%;
   height: 20%;
   box-sizing: content-box;
-  .container {
-    position: fixed;
-    left: 17%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-    height: 80px;
-    width: 600px;
-    background: #f2f2f2;
-    overflow: hidden;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0 0 20px 8px #d0d0d0;
-  }
+}
+.container {
+  position: fixed;
+  left: 17%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  height: 80px;
+  width: 600px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
 }
 
 h2 {
   width: 40%;
   height: 100%;
 }
- */
