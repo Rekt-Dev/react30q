@@ -1,4 +1,4 @@
-import "../src/s";
+import "./styles.css";
 import {useEffect, useState} from "react"
 
 export default function App() {
@@ -17,9 +17,10 @@ export default function App() {
     <h1>
       Users
     </h1>
-    <div className="card">
+    <div className="card"
+    >
       {users.map((user)=>(
-       <div className="card">
+       <div className="card-inner">
          {user.name}
        </div> 
   
