@@ -1,5 +1,7 @@
 import  "../src/styles.css"
 import {useEffect, useState} from "react"
+import Card from 'react-bootstrap/Card';
+
 
 export default function App() {
   const[users, setUsers] =  useState<any[]>([])
@@ -17,12 +19,19 @@ export default function App() {
     <h1>
       Users
     </h1>
+    <div>
+ <Card>
+           <Card.Body>This is some text within a card body.</Card.Body>
+          </Card>
+    </div>
+    <br />
     <div className=""
     >
       {users.map((user)=>(
        <div className="">
-         {user.name}
+       {user.name}
        </div> 
+       
   
       ))}
       
